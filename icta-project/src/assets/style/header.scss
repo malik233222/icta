@@ -1,0 +1,29 @@
+nav{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-wrapper{
+
+
+        .header-logo{
+            width: 234px;
+            height: 48px;
+        }
+    }
+
+    .user-inf{
+display: flex;
+align-items: center;
+
+        .user-logo{
+            font-size: 50px;
+        }
+    }
+}
+
+
+
+

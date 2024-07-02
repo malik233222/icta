@@ -1,0 +1,107 @@
+.top {
+
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    .buttons {
+        gap: 30px;
+
+        a {
+            color: white;
+            background-color: #3C6CB4;
+            padding: 5px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 10px;
+
+        }
+    }
+
+    .search {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        label {
+            position: absolute;
+            left: 4px;
+            font-size: 25px;
+        }
+
+        input {
+            border: none;
+            border-radius: 20px;
+        }
+    }
+}
+
+.center {
+    margin: 50px 20px;
+
+    table {
+        thead {
+
+            tr {
+                background-color: #3C6CB4;
+                padding: 20px 0;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+
+                
+                th {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color: white;
+                    max-width: 175px;
+                    height: 35px;
+                    width: 185px;
+                    border-right: 1px solid white;
+                  
+
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                }  
+                
+               
+
+                
+            }
+        }
+
+        tbody {
+            tr {
+
+                td {
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+
+    .dataTable_paginate{
+        span{
+            padding: 2px;
+        }
+        a{
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            background-color: #3C6CB4;
+        }
+    }
+}
