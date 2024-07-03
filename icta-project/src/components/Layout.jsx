@@ -8,13 +8,17 @@ import '../index.css'
 export default function Layout() {
     return (
         <>
-            <div className="custom-container">
-                <Header />
-                <Outlet />
-                <Sidebar />
+            <div>
 
+                <div className='sidebar'>
+                    {/* <Sidebar /> */}
+                </div>
 
-                <Footer />
+                <div className="custom-container">
+                    <Header />
+                    <Outlet />
+                    <Footer />
+                </div>
 
             </div>
 
